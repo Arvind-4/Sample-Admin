@@ -17,8 +17,10 @@ const SignUp = () => {
                 {/* <img className="hidden dark:block" src={Logo} alt="Logo" />
                 <img className="dark:hidden" src={LogoDark} alt="Logo" /> */}
                 <p>
-            <span className="text-2xl font-bold text-gray-900">Admin</span>
-          </p>
+                  <span className="text-gray-900 text-2xl font-bold">
+                    Admin
+                  </span>
+                </p>
               </Link>
               <p className="2xl:px-20">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
