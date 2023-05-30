@@ -1,7 +1,12 @@
 import { useState } from 'react';
-import DefaultLayout from '../layout/DefaultLayout.js';
+import DefaultLayout from '../layout/DefaultLayout';
 import Modal from '../components/Modal';
 import CheckboxFive from '../components/CheckboxFive';
+import TableOne from '../components/TableOne';
+import ChartThree from '../components/ChartThree';
+import TableThree from '../components/TableThree';
+import TableTwo from '../components/TableTwo';
+
 
 const Portfolio = () => {
   const [open, setOpen] = useState(false);
@@ -93,6 +98,16 @@ const Portfolio = () => {
           </div>
         </Modal>
       ) : null}
+
+
+      <h1 className="text-2xl font-bold text-black">Portfolio Results</h1>
+
+
+<TableOne />
+{/* <TableTwo />
+<TableThree /> */}
+        <ChartThree />
+        <TableThree />
     </DefaultLayout>
   );
 };

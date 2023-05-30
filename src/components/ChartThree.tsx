@@ -11,7 +11,7 @@ const options: ApexOptions = {
     type: 'donut',
   },
   colors: ['#10B981', '#375E83', '#259AE6', '#FFA70B'],
-  labels: ['Remote', 'Hybrid', 'Onsite', 'Leave'],
+  labels: ['XDM', 'AWE', 'OMN', 'ML'],
   legend: {
     show: true,
     position: 'bottom',
@@ -58,11 +58,11 @@ const ChartThree: React.FC = () => {
       <div className="mb-3 justify-between gap-4 sm:flex">
         <div>
           <h5 className="text-xl font-semibold text-black dark:text-white">
-            Visitors Analytics
+            Analytics
           </h5>
         </div>
         <div>
-          <div className="relative z-20 inline-block">
+          {/* <div className="relative z-20 inline-block">
             <select
               name=""
               id=""
@@ -91,7 +91,7 @@ const ChartThree: React.FC = () => {
                 />
               </svg>
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -105,7 +105,7 @@ const ChartThree: React.FC = () => {
         </div>
       </div>
 
-      <div className="-mx-8 flex flex-wrap items-center justify-center gap-y-3">
+      {/* <div className="-mx-8 flex flex-wrap items-center justify-center gap-y-3">
         <div className="w-full px-8 sm:w-1/2">
           <div className="flex w-full items-center">
             <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-primary"></span>
@@ -142,7 +142,7 @@ const ChartThree: React.FC = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
