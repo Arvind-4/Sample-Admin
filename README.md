@@ -4,21 +4,21 @@ This admin panel contains useful features for managing my website. It has graphs
 
 ## 📦 Tech Stack:
 
-- [React Js](https://reactjs.org)  - A JavaScript library for building user interfaces.
-- [Vite](https://vitejs.dev/)  - Next Generation Frontend Tooling.
-- [Typescript](https://www.typescriptlang.org/)  - JavaScript with syntax for types.
-- [Tailwind 3](https://tailwindcss.com/)  - Rapidly build modern websites without ever leaving your HTML.
+- [React Js](https://reactjs.org) - A JavaScript library for building user interfaces.
+- [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling.
+- [Typescript](https://www.typescriptlang.org/) - JavaScript with syntax for types.
+- [Tailwind 3](https://tailwindcss.com/) - Rapidly build modern websites without ever leaving your HTML.
 
-## Getting Started: 
+## Getting Started:
 
-- Clone Repo 
+- Clone Repo
 
 ```bash
 cd /path/to/folder
 mkdir adminpanel
 cd adminpanel
 git clone https://github.com/Arvind-4/Admin-Panel .
-```  
+```
 
 - Install Dependencies:
 

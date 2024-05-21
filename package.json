@@ -1,11 +1,10 @@
 {
-  "name": "simple-tailwindcss-admin",
+  "name": "admin-dashboard",
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000",
     "build": "vite build",
-    "preview": "vite preview",
-    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,scss,md,yml,yaml,sass,mdx,cjs,mjs}\""
   },
   "dependencies": {
     "apexcharts": "^3.37.0",
